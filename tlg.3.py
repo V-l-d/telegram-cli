@@ -22,6 +22,15 @@ help(Sender.get_self)  # get help for a specific command
 
 sender.send_msg('@user', 'text')
 
+GitHub
+echo "# telegram-cli" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/V-l-d/telegram-cli.git
+git push -u origin master
+
+
 """
 
 from pytg import Telegram
@@ -29,7 +38,8 @@ from pytg.utils import coroutine
 import time
 from pytg.utils import coroutine
 
-USER_NAME = 'V_ladimir'
+# USER_NAME = 'V_ladimir'
+USER_NAME = 'dmytryistriletskyi'
 BOT_NAME = 'ya'
 
 tg = Telegram(
