@@ -44,7 +44,7 @@ def main_loop():
     """ Ждем ответа """
     QUIT = None
     while not QUIT:
-        print('----------------')
+        print('-------------------')
         msg = (yield)     # it waits until it got a message, stored now in msg.
         try:
             user = msg.sender.username
